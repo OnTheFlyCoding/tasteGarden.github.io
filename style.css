@@ -1,3 +1,8 @@
+header{
+    height: 125px;
+    background-color: white;
+}
+
 #container{
     position: absolute;
     top: 0px;
@@ -20,6 +25,7 @@ section img{
     width: 100%;
     height: 100%;
 }
+
 .welcome{
     padding-top: 0px;
     font-size: larger;
@@ -28,25 +34,29 @@ section img{
     
 }
 #getMore{
+    mix-blend-mode: multiply;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     
 }
 #getMore section{
     text-align: center;
-    width: 33%;
-    height: 150px;
-    background-image: url(cofeeBean.jpeg);
+    width: 33.3%;
+    height: 125px;
     padding-top: 50px;
     
 }
-#getMore h2{
+
+
+a:link{
+    text-align: center;
+    text-decoration: none;
     font-size: 30px;
 }
-a:link{
-    text-decoration: none;
-}
-footer{
+.foot{
+    background-color: white;
     height: 200px;
     text-align: center;
     display: table;
